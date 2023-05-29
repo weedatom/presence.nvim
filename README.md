@@ -16,8 +16,8 @@
 
 ## Installation
 Use your favorite plugin manager
-* [vim-plug](https://github.com/junegunn/vim-plug): `Plug 'andweeb/presence.nvim'`
-* [packer.nvim](https://github.com/wbthomason/packer.nvim): `use 'andweeb/presence.nvim'`
+* [vim-plug](https://github.com/junegunn/vim-plug): `Plug 'catkoder123/presence.nvim'`
+* [packer.nvim](https://github.com/wbthomason/packer.nvim): `use 'catkoder123/presence.nvim'`
 
 #### Notes
 * Requires [Neovim 0.5](https://github.com/neovim/neovim/releases/tag/v0.5.0) or higher
@@ -91,8 +91,8 @@ let g:presence_line_number_text    = "Line %s out of %s"
     * Set the [`log_level`](#lua) setup option or [`g:presence_log_level`](#viml) to `"debug"`
     * Load a file and inspect the logs with `:messages`
 * If there is a `Failed to determine Discord IPC socket` error, your particular OS may not yet be supported
-    * If you don't see an existing [issue](https://github.com/andweeb/presence.nvim/issues) or [card](https://github.com/andweeb/presence.nvim/projects/1#column-14183588) for your OS, create a prefixed [issue](https://github.com/andweeb/presence.nvim/issues/new) (e.g. `[Void Linux]`)
-* Still not working and need help? Create a new [issue](https://github.com/andweeb/presence.nvim/issues)!
+    * If you don't see an existing [issue](https://github.com/catkoder123/presence.nvim/issues) or [card](https://github.com/catkoder123/presence.nvim/projects/1#column-14183588) for your OS, create a prefixed [issue](https://github.com/catkoder123/presence.nvim/issues/new) (e.g. `[Void Linux]`)
+* Still not working and need help? Create a new [issue](https://github.com/catkoder123/presence.nvim/issues)!
 
 ## Development
 * Clone the repo: `git clone https://github.com/andweeb/presence.nvim.git`
@@ -101,6 +101,6 @@ let g:presence_line_number_text    = "Line %s out of %s"
 * Ensure that there are no [luacheck](https://github.com/mpeterv/luacheck/) errors: `luacheck lua`
 
 ## Contributing
-Pull requests are very welcome, feel free to open an issue to work on any of the open [todo items](https://github.com/andweeb/presence.nvim/projects/1?add_cards_query=is%3Aopen) or message [droob#1322](https://discordapp.com/users/241953146232897550) on Discord!
+Pull requests are very welcome, feel free to open an issue to work on any of the open [todo items](https://github.com/andweeb/presence.nvim/projects/1?add_cards_query=is%3Aopen) or message [CatCoder123#3666](https://discordapp.com/users/241953146232897550) on Discord!
 
 Asset additions and changes are also welcome! Supported file types can be found in [`file_assets.lua`](lua/presence/file_assets.lua) and their referenced asset files can be found [in this folder](https://www.dropbox.com/sh/j8913f0gav3toeh/AADxjn0NuTprGFtv3Il1Pqz-a?dl=0).
