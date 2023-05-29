@@ -9,8 +9,8 @@
 ## Features
 * Light and unobtrusive
 * No Python/Node providers (or CoC) required
-* Cross-platform support: macOS, nixOS, Linux[\*](#notes), Windows[\*](https://github.com/andweeb/presence.nvim/projects/1#card-60537963), WSL[\*](https://github.com/andweeb/presence.nvim/wiki/Rich-Presence-in-WSL)
-* Startup time is fast(er than other Rich Presence plugins, by [kind of a lot](https://github.com/andweeb/presence.nvim/wiki/Plugin-Comparisons))
+* Cross-platform support: macOS, nixOS, Linux[\*](#notes), Windows[\*](https://github.com/catkoder123/presence.nvim/projects/1#card-60537963), WSL[\*](https://github.com/catkoder123/presence.nvim/wiki/Rich-Presence-in-WSL)
+* Startup time is fast(er than other Rich Presence plugins, by [kind of a lot](https://github.com/catkoder123/presence.nvim/wiki/Plugin-Comparisons))
 * Written in Lua and [highly configurable](#configuration) in Lua (but also configurable in VimL if you want)
 * Manages Rich Presence across multiple Neovim instances in various environments (tmux panes/windows, ssh sessions, terminal tabs/windows, etc.)
 
@@ -95,12 +95,12 @@ let g:presence_line_number_text    = "Line %s out of %s"
 * Still not working and need help? Create a new [issue](https://github.com/catkoder123/presence.nvim/issues)!
 
 ## Development
-* Clone the repo: `git clone https://github.com/andweeb/presence.nvim.git`
+* Clone the repo: `git clone https://github.com/catkoder123/presence.nvim.git`
 * Enable [logging](#configuration) and ensure that `presence.nvim` is **_not_** in the list of vim plugins in your config
 * Run `nvim` with your local changes: `nvim --cmd 'set rtp+=path/to/your/local/presence.nvim' file.txt`
 * Ensure that there are no [luacheck](https://github.com/mpeterv/luacheck/) errors: `luacheck lua`
 
 ## Contributing
-Pull requests are very welcome, feel free to open an issue to work on any of the open [todo items](https://github.com/andweeb/presence.nvim/projects/1?add_cards_query=is%3Aopen) or message [CatCoder123#3666](https://discordapp.com/users/241953146232897550) on Discord!
+Pull requests are very welcome, feel free to open an issue to work on any of the open [todo items](https://github.com/catkoder123/presence.nvim/projects/1?add_cards_query=is%3Aopen) or message [CatCoder123#3666](https://discordapp.com/users/241953146232897550) on Discord!
 
 Asset additions and changes are also welcome! Supported file types can be found in [`file_assets.lua`](lua/presence/file_assets.lua) and their referenced asset files can be found [in this folder](https://www.dropbox.com/sh/j8913f0gav3toeh/AADxjn0NuTprGFtv3Il1Pqz-a?dl=0).
